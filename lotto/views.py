@@ -27,7 +27,7 @@ def index(request):
     # render : 지정한 html 파일 가져와서, 사용자의 request 데이터를 눈 앞에
     # 보여주는 그런 역할
 
-def hello(request):,
+def hello(request):
     return HttpResponse("<h1 style ='color:red;'> Hello, world!</h1>")
 
 def post(request):
